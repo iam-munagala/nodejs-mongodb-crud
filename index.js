@@ -10,6 +10,8 @@ mongoose.connect(url,{
     useNewUrlParser:true
 })
 
+
+
 const conn = mongoose.connection
 
 conn.on('open',()=>{
