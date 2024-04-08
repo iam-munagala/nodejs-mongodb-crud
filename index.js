@@ -18,6 +18,7 @@ conn.on('open',()=>{
     console.log("DB connected");
 })
 
+
 app.use(express.json());
 app.use("/",router);
 
