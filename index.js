@@ -11,7 +11,6 @@ mongoose.connect(url,{
 })
 
 
-
 const conn = mongoose.connection
 
 conn.on('open',()=>{
